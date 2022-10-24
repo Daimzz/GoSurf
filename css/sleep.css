@@ -1,0 +1,149 @@
+.sleep{
+	margin-bottom: 260px;
+}
+
+.sleep__place{
+	min-height: 781px;
+	background-size: contain;
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-align: end;
+}
+.sleep__place-title{
+	margin-bottom: 8px;
+}
+.sleep__content-block{
+	display: inline-block;
+	margin-top: 92px;
+	margin-right: 80px;
+}
+.sleep__airline{
+	display: inline-block;
+	margin-left: 135px;
+	position: relative;
+	top: -103px;
+
+}
+
+.sleep__airline-suptitle::after{
+	content:"";
+	width: 52px;
+	height: 46px;
+	margin-left: 26px;
+	display: inline-block;
+	background-image: url('../images/sleep/virgin.svg');
+
+}
+.sleep__dest{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.sleep__plane {
+	text-align: end;
+	display: inline-block;
+	margin-top: -277px;
+	
+}
+.sleep__plane img {
+	display: inline-block;
+}
+
+
+.sleep__info {
+	text-transform: uppercase;
+	color:#fff;
+	height: 195px;
+	margin-bottom: 70px;
+}
+.info-sleep {
+	padding: 0 135px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: start;
+}
+.info-sleep__item {
+	flex: 1 1 242px;
+	position: relative;
+}
+.info-sleep__title {
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 8px;
+	opacity: 0.5;
+	writing-mode: vertical-lr;
+   transform: rotate(-180deg);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.info-sleep__text {
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 36px;
+	padding-left: 36px;
+	
+}
+.info-sleep__text p {
+	margin-top: -6px;
+	margin-left: 60px;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 5.25px;
+	text-transform: uppercase;
+	opacity: 0.75;
+}
+
+.info-sleep__text--letterspacing{
+	letter-spacing: 6px;
+	font-size: 34px;
+	line-height: 36px;
+}
+
+.sleep-btn{
+	text-align: center;
+}
+.sleep-btn a{
+	display: inline-block;
+	
+}
+
+.sleep-btn span{
+	padding: 17px 57px 15px 17px;
+	margin-left: 19px;
+ }
+ .sleep-btn span::after{
+	content: "";
+	position: absolute;
+	top: calc(50% - 10px);
+	right: 17px;
+	width: 24px;
+	height: 20px;
+	background-image: url('../images/header/arrow-right.svg');
+ }
+
+.sleep__flower {
+	position: relative;
+	top: -300px;
+}
+.sleep__flower img{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.sleep .slider-arrows{
+	opacity: 0.25;
+	top: 209px;
+ }
+
+ .sleep__airline .star-box{
+	vertical-align: text-bottom;
+ }
+ .sleep__airline .star-box li+li{
+	margin-left: -19px;
+ }

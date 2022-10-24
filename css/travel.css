@@ -1,0 +1,137 @@
+.travel{
+	margin-bottom: 162px;
+}
+
+.travel__place{
+	min-height: 781px;
+	background-size: contain;
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-align: end;
+}
+.travel__place-title{
+	margin-bottom: 8px;
+}
+.travel__content-block{
+	display: inline-block;
+	margin-top: 92px;
+	margin-right: 80px;
+}
+.travel__airline{
+	display: inline-block;
+	margin-left: 135px;
+	position: relative;
+	top: -103px;
+}
+
+.travel__airline-suptitle::after{
+	content:"";
+	width: 52px;
+	height: 46px;
+	margin-left: 26px;
+	display: inline-block;
+	background-image: url('../images/travel/virgin.svg');
+
+}
+.travel__dest{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.travel__plane {
+	text-align: end;
+	display: inline-block;
+	margin-top: -277px;
+	
+}
+.travel__plane img {
+	display: inline-block;
+}
+
+
+.travel__info {
+	text-transform: uppercase;
+	color:#fff;
+	height: 195px;
+	margin-bottom: 70px;
+}
+.info-travel {
+	padding: 0 135px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: start;
+}
+.info-travel__item {
+	flex: 1 1 242px;
+	position: relative;
+}
+.info-travel__title {
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 8px;
+	opacity: 0.5;
+	writing-mode: vertical-lr;
+   transform: rotate(-180deg);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.info-travel__text {
+	font-weight: 800;
+	font-size: 40px;
+	padding-left: 35px;
+	
+}
+.info-travel__text p {
+	margin-top: 2px;
+	margin-left: 64px;
+	font-weight: 400;
+	font-size: 14px;
+	
+	
+	letter-spacing: 5.25px;
+	text-transform: uppercase;
+	opacity: 0.75;
+}
+
+.travel-btn{
+	text-align: center;
+}
+.travel-btn a{
+	display: inline-block;
+	
+}
+
+.travel-btn span{
+	padding: 17px 57px 15px 17px;
+	margin-left: 19px;
+ }
+ .travel-btn span::after{
+	content: "";
+	position: absolute;
+	top: calc(50% - 10px);
+	right: 17px;
+	width: 24px;
+	height: 20px;
+	background-image: url('../images/header/arrow-right.svg');
+ }
+
+.travel__cocktail {
+	min-height: 193px;
+	position: relative;
+	top: -300px;
+}
+.travel__cocktail img{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.travel .slider-arrows{
+	opacity: 0.25;
+	top: 209px;
+ }

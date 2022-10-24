@@ -1,0 +1,22 @@
+.footer{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.footer-btn span{
+	padding: 17px 17px 15px 17px;
+	margin-left: 19px;
+}
+.footer-btn{
+	margin-bottom: 27px;
+	
+}
+.footer-copy{
+	font-weight: 300;
+	color: #fff;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 1.05px;
+	text-transform: uppercase;
+	opacity: 0.5;
+}

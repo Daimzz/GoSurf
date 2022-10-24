@@ -1,0 +1,130 @@
+.shop{
+	margin-bottom: 280px;
+	background-image: url('../images/shop/shop-bg.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #fff;
+}
+
+.shop__slider {
+	padding-left: 10px;
+	padding-top: 141px;
+}
+
+.shop__slider-wrapper {
+	display: flex;
+}
+.shop__slider-info {
+	max-width: 480px;
+	width: 100%;
+	margin-right: 40px;
+}
+.shop__descr {
+	max-width: 340px;
+}
+.shop__descr-title {
+	margin-bottom: 8px;
+	margin-left: 125px;
+}
+
+.shop__descr-suptitle {
+	margin-bottom: 27px;
+	margin-left: 125px;
+}
+.shop__slider-price{
+	margin-bottom: 67px;
+	margin-left: 125px;
+}
+.shop__slider-price .star-box{
+	vertical-align: text-bottom;
+ }
+ .shop__slider-price .star-box li{
+	margin-left: -19px;
+ }
+
+.shop__slider-price p {
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 40px;
+
+}
+.shop__slider-price sup{
+	font-size: 18px;
+	margin-left: 5px;
+
+}
+
+.shop__slider-content {
+	display: flex;
+	align-items: flex-end;
+}
+.surfboard {
+	position: relative;
+}
+
+.shop__extras-title {
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 40px;
+	margin-bottom: 25px;
+	
+}
+.shop__extras-wrapper{
+	display: flex;
+	align-items: center;
+}
+.shop__extras-inner {
+	margin-left: 150px;
+}
+.shop__extras-box{
+	text-align: center;
+}
+.shop__extras-box+.shop__extras-box {
+	margin-left: 57px;
+}
+.shop__extras-name {
+	font-weight: 400;
+	margin-bottom: 16px;
+	font-size: 18px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+.shop__extras-price {
+	font-weight: 800;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.shop__extras-images{
+	min-height: 105px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+.shop__extras-images img{
+	display: block;
+}
+.shop-btn{
+	margin-left: 125px;
+}
+
+.shop-btn span{
+	padding: 17px 57px 15px 17px;
+	margin-left: 19px;
+ }
+ .shop-btn span::after{
+	content: "";
+	position: absolute;
+	top: calc(50% - 10px);
+	right: 17px;
+	width: 24px;
+	height: 20px;
+	background-image: url('../images/header/arrow-right.svg');
+ }
+
+ .shop__slider .slider-arrows{
+	top: 90px;
+	opacity: 0.5;
+ }
